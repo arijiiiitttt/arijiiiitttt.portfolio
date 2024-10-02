@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className='items-center p-6 flex justify-between' id='homePg'>
+      <nav className='items-center lg:p-6 flex justify-between' id='homePg'>
         <div className='flex flex-1 justify-start p-0'>
           <a className='flex flex-row '>
             <img
@@ -26,7 +26,7 @@ const Header = () => {
          </a>
         </div>
 
-        <ul className='flex flex-row gap-7 text-[20px] font-light'>
+        <ul className='flex flex-row lg:gap-7 lg:text-[20px] font-light'>
           <li><a href='#homePg'>Home</a></li>
           <li><a href='#aboutPg'>About</a></li>
           <li><a href='blog'>Blog</a></li>
@@ -34,7 +34,7 @@ const Header = () => {
           <li>
             <a
               href='#contactPg'
-              className='hover:bg-black hover:text-white bg-[#ff0000] px-5 py-1 rounded-lg text-white popBold font-normal'>
+              className='hover:bg-black hover:text-white bg-[#ff0000] lg:px-5 lg:py-1 rounded-lg text-white popBold font-normal'>
               Contact Me
             </a>
           </li>
